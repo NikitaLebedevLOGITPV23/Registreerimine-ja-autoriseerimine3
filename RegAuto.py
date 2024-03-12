@@ -30,7 +30,7 @@ while True:
         salasõnad=genereerida_parooli(8)
     elif vastus==5:
         print("Lõpetamine")
-        kirjuta_failisse("kasutajad.txt",kasutajad)
+        kirjuta_failisse("kasutajad.txt",kasutajanimed)
         kirjuta_failisse("salasõnad.txt",salasõnad)
         break
     else:
